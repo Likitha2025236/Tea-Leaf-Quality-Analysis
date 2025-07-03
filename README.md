@@ -73,7 +73,7 @@ The following steps outline the methodology used in Tea Leaf Quality Analysis us
 •	Augmentation: Data augmentation (rotation, flipping, etc.) was performed to increase sample size and variability.
 •	Dimensionality reduction: Characteristic bands were selected to reduce redundancy using statistical and spectral techniques.
 3. Model Architecture
-•	      Combined CNN, Capsule Networks, and Improved Pooling Attention (IPA) mechanism for deep feature extraction.
+•	 Combined CNN, Capsule Networks, and Improved Pooling Attention (IPA) mechanism for deep feature extraction.
 •	      CNN extracts low-level spatial features.
 •	Capsule Network captures spatial-spectral relationships.
 •	IPA module improves discriminative power by dynamically pooling relevant information.
