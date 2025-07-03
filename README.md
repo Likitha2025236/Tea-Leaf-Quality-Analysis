@@ -4,7 +4,8 @@ Tea Leaf Quality Analysis using Advanced Deep Transfer Learning Method
 Description
 This project presents a deep transfer learning approach to predict the quality of Longjing tea leaves using Hyperspectral Imaging (HSI) data. The proposed model integrates Convolutional Neural Networks (CNN), Capsule Networks, and an Improved Pooling Attention (IPA) mechanism to extract and analyze spatial and spectral features. The project includes data augmentation, transfer learning strategies, and hyperparameter tuning to improve model generalizability and accuracy, even with limited labeled data.
 
-Dataset Information
+**Dataset Information**
+
 •	Dataset: Longjing Tea Leaf Dataset
 
 •	Classes: C1, C2, C3, C4, C5, C6 (representing tea grades)
