@@ -6,9 +6,13 @@ This project presents a deep transfer learning approach to predict the quality o
 
 Dataset Information
 •	Dataset: Longjing Tea Leaf Dataset
+
 •	Classes: C1, C2, C3, C4, C5, C6 (representing tea grades)
+
 •	Modality: Hyperspectral Images
+
 •	Characteristics: Low spatial resolution, high spectral resolution
+
 •	Size: Limited number of labeled samples (augmented for training)
 
 Code Information
@@ -66,6 +70,7 @@ pip install numpy pandas matplotlib scikit-learn torch torchvision tqdm
 
 Methodology – Steps for Data Processing and Modeling
 The following steps outline the methodology used in Tea Leaf Quality Analysis using Advanced Deep Transfer Learning:
+
 1 Data Collection- Hyperspectral Imaging (HSI) data of Longjing tea leaves was acquired. Dataset includes images categorized into six quality grades: C1 to C6.
 
 2. Data Preprocessing
@@ -79,9 +84,11 @@ The following steps outline the methodology used in Tea Leaf Quality Analysis us
 •	CNN extracts low-level spatial features.
 •	Capsule Network captures spatial-spectral relationships.
 •	IPA module improves discriminative power by dynamically pooling relevant information.
+
 4. Transfer Learning
 •	Pretrained on an augmented HSI dataset.
 •	Transferred knowledge was fine-tuned on the Longjing tea dataset using a meta-baseline framework for few-shot learning.
+
 5. Training Configuration
 •	Split: 70% training, 20% validation, 10% testing.
 •	Optimized using:
@@ -90,9 +97,11 @@ o	Batch size: 4
 o	Best learning rate: 0.0001
 •	Loss function: Cross-entropy
 •	Optimizer: Adam
+
 6. Performance Evaluation
 •	Used metrics: Accuracy, Precision, Recall, F1-score
 •	Compared against baseline models: CNN, LSTM, CNN-LSTM, and CNN-Capsule.
+
 7. Ablation Study
 •	Compared different pooling methods:
 o	Average Pooling (AP)
