@@ -71,8 +71,10 @@ The model will automatically begin training.
 Step 8: Evaluate & Save the Model
 
 **Requirements**
+
 To successfully run the code for Tea Leaf Quality Analysis using Advanced Deep Transfer Learning, ensure the following dependencies are installed:
-Python Version
+
+**Python Version**
 
 •	Python 3.7 or later
 
@@ -104,23 +106,35 @@ The following steps outline the methodology used in Tea Leaf Quality Analysis us
 • Dataset includes images categorized into six quality grades: C1 to C6.
 
 2. Data Preprocessing
+   
 •	Noise removal: Applied denoising techniques to handle noisy HSI bands.
+
 •	Normalization: Spectral data was normalized to a fixed scale.
+
 •	Augmentation: Data augmentation (rotation, flipping, etc.) was performed to increase sample size and variability.
+
 •	Dimensionality reduction: Characteristic bands were selected to reduce redundancy using statistical and spectral techniques.
 
 3. Model Architecture
+   
 •Combined CNN, Capsule Networks, and Improved Pooling Attention (IPA) mechanism for deep feature extraction.
+
 •	CNN extracts low-level spatial features.
+
 •	Capsule Network captures spatial-spectral relationships.
+
 •	IPA module improves discriminative power by dynamically pooling relevant information.
 
 4. Transfer Learning
+   
 •	Pretrained on an augmented HSI dataset.
+
 •	Transferred knowledge was fine-tuned on the Longjing tea dataset using a meta-baseline framework for few-shot learning.
 
 5. Training Configuration
+   
 •	Split: 70% training, 20% validation, 10% testing.
+
 •	Optimized using:
 o	Epochs: 100
 o	Batch size: 4
@@ -129,11 +143,17 @@ o	Best learning rate: 0.0001
 •	Optimizer: Adam
 
 6. Performance Evaluation
+   
 •	Used metrics: Accuracy, Precision, Recall, F1-score
+
 •	Compared against baseline models: CNN, LSTM, CNN-LSTM, and CNN-Capsule.
 
 7. Ablation Study
+   
 •	Compared different pooling methods:
+
 o	Average Pooling (AP)
+
 o	Max Pooling (MP)
+
 o	Improved Pooling Attention (IPA) — demonstrated highest performance
