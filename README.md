@@ -77,14 +77,16 @@ Python Version
 •	Python 3.7 or later
 
 **Required Libraries**
-Library	Version	Purpose
-numpy	≥ 1.19	Numerical operations
-pandas	≥ 1.1	Data handling and preprocessing
-matplotlib	≥ 3.2	Visualization
-scikit-learn	≥ 0.24	Metrics and data splitting
-torch	≥ 1.9	Deep learning framework (PyTorch)
-torchvision	≥ 0.10	Useful utilities for computer vision tasks
-tqdm	≥ 4.62	Progress bar for training visualization
+| Library     | Version  | Purpose                                    |
+|-------------|----------|--------------------------------------------|
+| numpy       | ≥ 1.19   | Numerical operations                       |
+| pandas      | ≥ 1.1    | Data handling and preprocessing            |
+| matplotlib  | ≥ 3.2    | Visualization                              |
+| scikit-learn| ≥ 0.24   | Metrics and data splitting                 |
+| torch       | ≥ 1.9    | Deep learning framework (PyTorch)          |
+| torchvision | ≥ 0.10   | Useful utilities for computer vision tasks |
+| tqdm        | ≥ 4.62   | Progress bar for training visualization    |
+
 
 **Installation Command**
 
