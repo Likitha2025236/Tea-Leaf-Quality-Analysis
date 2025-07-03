@@ -100,7 +100,7 @@ pip install numpy pandas matplotlib scikit-learn torch torchvision tqdm
 
 The following steps outline the methodology used in Tea Leaf Quality Analysis using Advanced Deep Transfer Learning:
 
-1 Data Collection 
+1. Data Collection 
 
 • Hyperspectral Imaging (HSI) data of Longjing tea leaves was acquired.
 
