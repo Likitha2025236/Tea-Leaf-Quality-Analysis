@@ -17,35 +17,48 @@ This project presents a deep transfer learning approach to predict the quality o
 •	Size: Limited number of labeled samples (augmented for training)
 
 **Code Information**
+
 The codebase contains the following main components:
+
 •	data_preprocessing.py: Handles image preprocessing, augmentation, and splitting into train/test/validation sets.
+
 •	model.py: Contains the architecture combining CNN, Capsule Network, and Improved Pooling Attention (IPA).
+
 •	train.py: Trains the model using the selected hyperparameters.
+
 •	evaluate.py: Computes accuracy, precision, recall, F1-score.
+
 •	utils/: Includes helper functions for loading data, visualization, and metrics.
+
 •	experiments/: Contains scripts and logs of hyperparameter tuning results.
 
-**Usage Instructions **
+**Usage Instructions**
+
 Step 1: Open the Project
+
 1.	Open Google Colab in your browser.
 2.	Create a new notebook or upload the provided .ipynb file.
 
 Step 2: Set Up the Runtime
+
 1.	Click on Runtime in the top menu.
 2.	Select Change runtime type.
 3.	Set Hardware Accelerator to GPU.
 4.	Click Save.
 
 Step 3: Upload or Mount Dataset
+
 Option A: Upload Manually
 1.	On the left pane, click the folder icon.
 2.	Click the upload icon and select your dataset files.
 
 Step 4: Install the Libraries 
+
 Run the following code in a cell to install any missing packages:
 !pip install numpy pandas matplotlib scikit-learn torch torchvision
 
 Step 5: Load the Dataset
+
 Modify the code to load the dataset correctly. 
 
 Step 6: Run the Code
@@ -60,8 +73,10 @@ Step 8: Evaluate & Save the Model
 **Requirements**
 To successfully run the code for Tea Leaf Quality Analysis using Advanced Deep Transfer Learning, ensure the following dependencies are installed:
 Python Version
+
 •	Python 3.7 or later
-Required Libraries
+
+**Required Libraries**
 Library	Version	Purpose
 numpy	≥ 1.19	Numerical operations
 pandas	≥ 1.1	Data handling and preprocessing
@@ -71,11 +86,13 @@ torch	≥ 1.9	Deep learning framework (PyTorch)
 torchvision	≥ 0.10	Useful utilities for computer vision tasks
 tqdm	≥ 4.62	Progress bar for training visualization
 
-Installation Command
+**Installation Command**
+
 Install all dependencies using the following command:
+
 pip install numpy pandas matplotlib scikit-learn torch torchvision tqdm
 
-Methodology – Steps for Data Processing and Modeling
+**Methodology – Steps for Data Processing and Modeling**
 The following steps outline the methodology used in Tea Leaf Quality Analysis using Advanced Deep Transfer Learning:
 
 1 Data Collection 
