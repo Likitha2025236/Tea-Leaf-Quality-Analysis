@@ -97,6 +97,7 @@ Install all dependencies using the following command:
 pip install numpy pandas matplotlib scikit-learn torch torchvision tqdm
 
 **Methodology – Steps for Data Processing and Modeling**
+
 The following steps outline the methodology used in Tea Leaf Quality Analysis using Advanced Deep Transfer Learning:
 
 1 Data Collection 
@@ -117,7 +118,7 @@ The following steps outline the methodology used in Tea Leaf Quality Analysis us
 
 3. Model Architecture
    
-•Combined CNN, Capsule Networks, and Improved Pooling Attention (IPA) mechanism for deep feature extraction.
+• Combined CNN, Capsule Networks, and Improved Pooling Attention (IPA) mechanism for deep feature extraction.
 
 •	CNN extracts low-level spatial features.
 
@@ -136,6 +137,7 @@ The following steps outline the methodology used in Tea Leaf Quality Analysis us
 •	Split: 70% training, 20% validation, 10% testing.
 
 •	Optimized using:
+
 o	Epochs: 100
 o	Batch size: 4
 o	Best learning rate: 0.0001
