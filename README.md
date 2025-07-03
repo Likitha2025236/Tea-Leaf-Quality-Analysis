@@ -66,7 +66,7 @@ pip install numpy pandas matplotlib scikit-learn torch torchvision tqdm
 
 Methodology – Steps for Data Processing and Modeling
 The following steps outline the methodology used in Tea Leaf Quality Analysis using Advanced Deep Transfer Learning:
-1. Data Collection
+1 Data Collection
 •	Hyperspectral Imaging (HSI) data of Longjing tea leaves was acquired.
 •	Dataset includes images categorized into six quality grades: C1 to C6.
 2. Data Preprocessing
