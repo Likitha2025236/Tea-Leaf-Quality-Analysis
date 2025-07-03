@@ -139,9 +139,13 @@ The following steps outline the methodology used in Tea Leaf Quality Analysis us
 •	Optimized using:
 
 o	Epochs: 100
+
 o	Batch size: 4
+
 o	Best learning rate: 0.0001
+
 •	Loss function: Cross-entropy
+
 •	Optimizer: Adam
 
 6. Performance Evaluation
